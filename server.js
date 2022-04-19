@@ -122,7 +122,7 @@ app.get('/', (req, res)=>{
   // page to be rendered as input.
   // This page should be in views folder
   // in the root directory.
-  var data = {name:'Akashdeep',
+  var data = {name:'Shubham',
       hobbies:['playing football', 'playing chess', 'cycling']}
    
   res.render('home', {data:data});
